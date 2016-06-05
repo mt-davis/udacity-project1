@@ -44,7 +44,7 @@ body {
     font-family: 'Titillium Web', sans-serif;
     color: #1475BB;
     font-weight: 600;
-    background-image: url("../images/white_leather.png");
+    background-image: url(../img/white_leather.png);
     overflow-x: hidden;
     /*Hide Bottpm scroll bar */
 }
