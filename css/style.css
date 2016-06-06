@@ -70,4 +70,8 @@ hr {
 .social-media {
     letter-spacing: 10px;
 }
+
 /*footer*/
+.footer {
+    padding-bottom: 15px;
+}
