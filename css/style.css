@@ -47,7 +47,7 @@ video {
 
 body {
     font-family: "Titillium Web", sans-serif;
-    color: #1475BB;
+    color: rgb(20,117,187);
     font-weight: 600;
     background-image: url(../img/white_leather.png);
     overflow-x: hidden;
@@ -55,7 +55,7 @@ body {
 }
 
 .text-muted {
-    color: #BCBBBB;
+    color: rgb(188,187,187);
 }
 
 .text-thin {
@@ -71,7 +71,7 @@ body {
 }
 
 hr {
-    border: 1px solid #000;
+    border: 1px solid rgb(0,0,0);
     /*Set the color and thinkness of hr tag */
 }
 
