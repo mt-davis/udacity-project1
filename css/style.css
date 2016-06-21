@@ -6,13 +6,13 @@ object,
 video {
     max-width: 100%;
 }
-
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 .title-logo {
     height: auto;
     width: auto;
@@ -21,46 +21,37 @@ video {
 }
 
 @media only screen and (min-width: 320px) {
-    
-    .imageheader {
-    position: absolute;
-    top: 10px;
-    left: 25px;
-    width: 100%;
-    font-size: 15px;
-    animation-delay: 1s;
-    
-        }
-    
+    .image-header {
+        position: absolute;
+        top: 10px;
+        left: 25px;
+        width: 100%;
+        font-size: 15px;
+        animation-delay: 1s;
     }
-    
-    @media only screen and (min-width: 320px) {
-    
-    .imageheader {
-    position: absolute;
-    top: 10px;
-    left: 25px;
-    width: 100%;
-    font-size: 15px;
-    animation-delay: 1s;
-    
-        }
-    
+}
+
+@media only screen and (min-width: 320px) {
+    .image-header {
+        position: absolute;
+        top: 10px;
+        left: 25px;
+        width: 100%;
+        font-size: 15px;
+        animation-delay: 1s;
     }
-    
-    @media only screen and (min-width: 1000px) {
-    
-    .imageheader {
-    position: absolute;
-    top: 130px;
-    left: 60px;
-    width: 100%;
-    font-size: 40px;
-    animation-delay: 1s;
-    
-        }
-    
+}
+
+@media only screen and (min-width: 1000px) {
+    .image-header {
+        position: absolute;
+        top: 130px;
+        left: 60px;
+        width: 100%;
+        font-size: 40px;
+        animation-delay: 1s;
     }
+}
 
 /* styleing for header image*/
 
@@ -74,7 +65,7 @@ video {
 
 body {
     font-family: "Titillium Web", sans-serif;
-    color: rgb(20,117,187);
+    color: rgb(20, 117, 187);
     font-weight: 600;
     background-image: url(../img/white_leather.png);
     overflow-x: hidden;
@@ -82,7 +73,7 @@ body {
 }
 
 .text-muted {
-    color: rgb(188,187,187);
+    color: rgb(188, 187, 187);
 }
 
 .text-thin {
@@ -93,12 +84,13 @@ body {
 .title-super {
     font-size: 60px;
 }
+
 .title-logo {
     margin-top: 20px;
 }
 
 hr {
-    border: 1px solid rgb(0,0,0);
+    border: 1px solid rgb(0, 0, 0);
     /*Set the color and thinkness of hr tag */
 }
 
@@ -109,6 +101,7 @@ hr {
 }
 
 /*footer*/
+
 .footer {
     padding-bottom: 15px;
 }
